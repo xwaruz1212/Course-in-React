@@ -1,15 +1,13 @@
-class App extends React.Component {
-  state = {
-    counter: 0
-  }
-  render() {
-    return (
-      <div>
-        <h1>Hello!</h1>
-      </div>
-    );
-  }
-}
+console.log(React);
+console.log(ReactDOM);
 
+const element = <section>
+  <div><p id="main" className="blue"></p>First React Element</div>
+  </section>
 
-ReactDOM.render(<App />, document.getElementById('root'))
+  const element2 = (
+    <>
+  <section></section>
+  <section></section>
+  </>
+  )
