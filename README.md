@@ -1,1 +1,1 @@
-Course in React
+Course in React on Udemy
