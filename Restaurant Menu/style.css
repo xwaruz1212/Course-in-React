@@ -1,0 +1,19 @@
+html {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  position: relative;
+}
+
+li {
+  line-height: 160%;
+  padding: 20px 10px;
+  cursor: pointer;
+}
+
+li:nth-child(even) {
+  background-color: darkred;
+}
+
+li:nth-child(odd) {
+  background-color: burlywood;
+}
